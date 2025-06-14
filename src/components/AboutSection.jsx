@@ -1,28 +1,30 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, GraduationCap, Palette, User } from "lucide-react";
 
 export const AboutSection = () => {
     return (
         <section id="about" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-                    About <span className="text-primary">Me</span>
+                    À propos de <span className="text-primary">Moi</span>
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Web Developper & Tech Creator
+                            Développeuse full-stack
                         </h3>
                         <p className="text-muted-foreground">
-                            I am a passionate web developer with a keen interest
-                            in creating innovative and user-friendly web
-                            applications. My journey in tech has been driven by
-                            a desire to solve real-world problems through code.
+                            Je suis une développeuse passionnée qui aime créer
+                            des applications utiles et esthétiques. Mon parcours
+                            m'a permis de maîtriser divers langages et
+                            technologies, me permettant de travailler sur des
+                            projets variés, allant du développement front-end au
+                            back-end.
                         </p>
                         <p className="text-muted-foreground">
                             {" "}
-                            I enjoy exploring new technologies and continuously
-                            improving my skills to deliver high-quality
-                            solutions.
+                            Toujours prête à apprendre et à relever de nouveaux
+                            défis, je m'efforce de rester à jour avec les
+                            dernières tendances technologiques.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -31,7 +33,7 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href="linktomycv"
+                                href="/files/CV_Mathilde_Henrion.pdf"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/70 transition-colors duration-300"
                             >
                                 {" "}
@@ -43,17 +45,38 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
+                                    <GraduationCap className="h-6 w-6 text-primary" />
+                                </div>
+                                <div className="text-left">
+                                    <h4 className="font-semibold text-lg">
+                                        Études
+                                    </h4>
+                                    <p className="text-muted-foreground">
+                                        Je réalise un BUT Informatique à l'IUT
+                                        de Calais en alternance à ArcelorMittal
+                                        en tant qu'analyste développeuse.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="gradient-border p-6 card-hover">
+                            <div className="flex items-start gap-4">
+                                <div className="p-3 rounded-full bg-primary/10">
                                     <Code className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">
-                                        Web Development
+                                        Développement
                                     </h4>
                                     <p className="text-muted-foreground">
-                                        I specialize in building responsive and
-                                        interactive web applications using
-                                        modern technologies like React, Node.js,
-                                        and more.
+                                        Mes études m'ont permis d'acquérir des
+                                        compétences variées en informatique.
+                                        Autant le développement d'applications
+                                        que la gestion de bases de données, en
+                                        passant par le développement web et
+                                        mobile. J'ai également une bonne
+                                        connaissance des outils de gestion de
+                                        projet et de versionnage.
                                     </p>
                                 </div>
                             </div>
@@ -61,35 +84,19 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary" />
+                                    <Palette className="h-6 w-6 text-primary" />
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">
-                                        UI/UX Design
+                                        Centres d'intérêts
                                     </h4>
                                     <p className="text-muted-foreground">
-                                        I have a strong eye for design and user
-                                        experience, ensuring that my
-                                        applications are not only functional but
-                                        also visually appealing and easy to use.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">
-                                        Project Management
-                                    </h4>
-                                    <p className="text-muted-foreground">
-                                        I am experienced in managing projects
-                                        from conception to deployment, ensuring
-                                        that they are delivered on time and meet
-                                        the highest standards.
+                                        J'aime apprendre et découvrir de
+                                        nouvelles choses. J'aime jouer et
+                                        écouter de la musique, dessiner, lire,
+                                        apprendre de nouvelles langues?... Je
+                                        fais également de la natation, de la
+                                        musculation et du running.
                                     </p>
                                 </div>
                             </div>

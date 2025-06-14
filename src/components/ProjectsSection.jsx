@@ -3,29 +3,63 @@ const projects = [
     {
         id: 1,
         title: "Panikabor",
-        description: "Mon jeu de plateau avec de l'IA",
+        description:
+            "J'ai créer un jeu de plateau en Java. Il s'agit d'un jeu collectif où l'objectif est de réparer le vaisseau spataial avant que l'équipage disparaisse à cause des aliens.",
         image: "/projects/cmp5_jv.png",
-        tags: ["JavaScript", "AI"],
-        demoUrl: "https://panikabor.com",
-        githubUrl: "https://panikabordgithub.com",
+        tags: ["Java", "MG2D"],
+        demoUrl: "",
+        githubUrl: "https://github.com/Bright4lpha/Panikabor",
     },
     {
         id: 2,
         title: "Laravel Project",
-        description: "Gestionnaire de stocks en Laravel",
+        description:
+            "J'ai réalise une application web de gestion de stocks en Laravel. De plus, j'ai développé une API pour permettre l'accès aux données de l'application.",
         image: "/projects/lara_3.png",
         tags: ["Laravel", "PHP", "API"],
-        demoUrl: "https://laravel.com",
-        githubUrl: "https://laravel_github.com",
+        demoUrl: "",
+        githubUrl: "",
     },
     {
         id: 3,
         title: "Traitement d'images",
-        description: "Traitement d'images avec Python",
+        description:
+            "J'ai réalisé un projet de traitement d'images en Python. J'ai utilisé OpenCV pour appliquer différents filtres et transformations sur des images.",
         image: "/projects/sae_c2.png",
         tags: ["Python", "C++", "OpenCV"],
-        demoUrl: "https://image.com",
-        githubUrl: "https://imagegithub.com",
+        demoUrl: "",
+        githubUrl: "",
+    },
+    {
+        id: 4,
+        title: "Montée de version GLPI",
+        description:
+            "Dans le cadre de mon alternance, j'ai effectué la montée de version de GLPI de la version 9 à la version 10. Ce projet m'a permis de découvrir les enjeux d'une migration de logiciel en entreprise. ",
+        image: "/projects/sae_c2.png",
+        tags: ["PHP", "GLPI"],
+        demoUrl: "",
+        githubUrl: "",
+    },
+
+    {
+        id: 5,
+        title: "Jeu d'arcade",
+        description:
+            "J'ai réalisé un démineur en Java pour la borne d'arcade de mon IUT. J'ai appris à optimiser le code pour qu'il fonctionne sur une machine avec des ressources limitées.",
+        image: "/projects/sae_c2.png",
+        tags: ["Java", "MG2D", "Raspberry Pi"],
+        demoUrl: "",
+        githubUrl: "https://github.com/Bright4lpha/minesweeper_borne_iut",
+    },
+    {
+        id: 6,
+        title: "Montée de version application",
+        description:
+            "J'ai réalisé la montée de version d'une application de traitement d'images HDR développée par mes enseignants. J'ai dû adapter le code pour qu'il fonctionne avec les nouvelles versions de Python et des bibliothèques utilisées.",
+        image: "/projects/sae_c2.png",
+        tags: ["Python"],
+        demoUrl: "",
+        githubUrl: "https://github.com/Bright4lpha/sae_uHDR",
     },
 ];
 
@@ -34,12 +68,11 @@ export const ProjectsSection = () => {
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    Featured <span className="text-primary">Projects</span>
+                    Mes <span className="text-primary">Projets</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my recent projects that showcase my skills
-                    and creativity. Click on the project titles to view the
-                    demos or source code.
+                    Voici quelques-uns de mes projets que j'ai pu réaliser dans
+                    le cadre de mon BUT et de mon alternance.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, key) => (
@@ -71,20 +104,24 @@ export const ProjectsSection = () => {
                                 </p>
                                 <div className="flex justify-between items-center">
                                     <div className="flex space-x-3">
-                                        <a
-                                            href={project.demoUrl}
-                                            target="_blank"
-                                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        >
-                                            <ExternalLink size={20} />
-                                        </a>
-                                        <a
-                                            href={project.githubUrl}
-                                            target="_blank"
-                                            className="text-foreground/80 hover:text-primary transition-colors duration-300"
-                                        >
-                                            <Github size={20} />
-                                        </a>
+                                        {project.demoUrl && (
+                                            <a
+                                                href={project.demoUrl}
+                                                target="_blank"
+                                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                            >
+                                                <ExternalLink size={20} />
+                                            </a>
+                                        )}
+                                        {project.githubUrl && (
+                                            <a
+                                                href={project.githubUrl}
+                                                target="_blank"
+                                                className="text-foreground/80 hover:text-primary transition-colors duration-300"
+                                            >
+                                                <Github size={20} />
+                                            </a>
+                                        )}
                                     </div>
                                 </div>
                             </div>

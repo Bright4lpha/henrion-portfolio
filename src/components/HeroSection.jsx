@@ -9,7 +9,7 @@ export const HeroSection = () => {
                 <div className="space-y-6">
                     <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                         <span className="opacity-0 animate-fade-in">
-                            Hi, I'm
+                            Salut, c'est
                         </span>
                         <span className="text-primary opacity-0 animate-fade-in-delay-1">
                             {" "}
@@ -21,8 +21,9 @@ export const HeroSection = () => {
                         </span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                        Hey, it s me je parle de moi et de ce que je suis. ce
-                        que je fais mes études , ce que je recherche.
+                        Je suis développeuse informatique en 3ème année de BUT
+                        Informatique à l'IUT de Calais. Découvrez mon CV et mes
+                        projets !
                     </p>
                     <div className="pt-4 opacity-0 animate-fade-in-delay-3">
                         <a href="#projects" className="cosmic-button">

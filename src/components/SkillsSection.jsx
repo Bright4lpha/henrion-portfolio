@@ -2,24 +2,38 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
+    { name: "PHP", level: 90, category: "backend" },
+    { name: "MySQL", level: 85, category: "base de données" },
+    { name: "PostgreSQL", level: 70, category: "base de données" },
+    { name: "Java", level: 80, category: "backend" },
+    { name: "Python", level: 75, category: "backend" },
     { name: "HTML/CSS", level: 95, category: "frontend" },
+    { name: "Node.js", level: 60, category: "backend" },
+    { name: "Vue.js", level: 50, category: "frontend" },
     { name: "JavaScript", level: 90, category: "frontend" },
-    { name: "React", level: 85, category: "frontend" },
-    { name: "Node.js", level: 80, category: "backend" },
-    { name: "Express", level: 75, category: "backend" },
-    { name: "MongoDB", level: 70, category: "database" },
-    { name: "Git", level: 80, category: "tools" },
-    { name: "Docker", level: 60, category: "tools" },
+    { name: "React", level: 70, category: "frontend" },
+    { name: "Express", level: 60, category: "backend" },
+    { name: "Git", level: 80, category: "outils" },
+    { name: "Docker", level: 60, category: "outils" },
     { name: "Figma", level: 70, category: "design" },
     { name: "Photoshop", level: 65, category: "design" },
+    { name: "GLPI", level: 95, category: "outils" },
+    { name: "Unreal Engine", level: 50, category: "outils" },
+    { name: "Tailwind CSS", level: 80, category: "frontend" },
+    { name: "Twig", level: 0, category: "frontend" },
+    { name: "Docker", level: 60, category: "outils" },
+    { name: "Bootstrap", level: 0, category: "frontend" },
+    { name: "C#", level: 50, category: "backend" },
+    { name: "C++", level: 50, category: "backend" },
+    { name: "Kubernetes", level: 0, category: "outils" },
 ];
 
 const categories = [
-    "all",
+    "tout",
     "frontend",
     "backend",
-    "database",
-    "tools",
+    "base de données",
+    "outils",
     "design",
 ];
 
@@ -34,7 +48,7 @@ export const SkillsSection = () => {
         <section id="skills" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3-xl md:text-4xl font-bold mb-12 text-center">
-                    My <span className="text-primary">Skills</span>
+                    Mes <span className="text-primary">Compétences</span>
                 </h2>
 
                 <div className="flex flex-wrap justify-center gap-4 mb-12">
@@ -66,15 +80,19 @@ export const SkillsSection = () => {
                                 </h3>
                             </div>
                             <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
-                                <div
-                                    className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out"
-                                    style={{ width: skill.level + "%" }}
-                                />
+                                {skill.level > 0 && (
+                                    <div
+                                        className="bg-primary h-2 rounded-full origin-left animate-[grow_1.5s_ease-out"
+                                        style={{ width: skill.level + "%" }}
+                                    />
+                                )}
                             </div>
                             <div className="text-right mt-1">
-                                <span className="text-sm text-muted-foreground">
-                                    {skill.level}%
-                                </span>
+                                {skill.level > 0 && (
+                                    <span className="text-sm text-muted-foreground">
+                                        {skill.level}%
+                                    </span>
+                                )}
                             </div>
                         </div>
                     ))}

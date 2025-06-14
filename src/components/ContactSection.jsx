@@ -34,18 +34,22 @@ export const ContactSection = () => {
         <section id="contact" className="py-24 px-4 relative bg-secondary/30">
             <div className="container mx-auto max-w-5xl">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-                    Get in <span className="text-primary">Touch</span>
+                    Rester en <span className="text-primary">Contact</span>
                 </h2>
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    I would love to hear from you! Whether you have a question,
-                    want to collaborate, or just want to say hi, feel free to
-                    reach out.
+                    Je suis toujours ouverte aux nouvelles opportunités et
+                    collaborations. Si vous souhaitez discuter d'un projet,
+                    partager des idées ou simplement échanger, n'hésitez pas à
+                    me contacter via le formulaire ci-dessous ou par email. Je
+                    suis impatiente de vous entendre et de voir comment nous
+                    pouvons travailler ensemble pour créer quelque chose de
+                    génial !
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     <div className="space-y-8">
                         <h3 className="text-2xl font-semibold mb-6">
-                            Contact information
+                            Informations de contact
                         </h3>
                         <div className="space-y-6 justify-center">
                             <div className="flex items-center space-x-4">
@@ -95,19 +99,31 @@ export const ContactSection = () => {
 
                         <div className="pt-8">
                             <h4 className="font-medium mb-4">
-                                Connect with me
+                                Connectez-vous avec moi
                             </h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="#" target="_blank">
+                                <a
+                                    href="www.linkedin.com/in/mathilde-henrion-4b110b260"
+                                    target="_blank"
+                                >
                                     <Linkedin />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a
+                                    href="https://www.instagram.com/bright_4lpha/"
+                                    target="_blank"
+                                >
                                     <Instagram />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a
+                                    href="https://www.facebook.com/profile.php?id=100082244859164"
+                                    target="_blank"
+                                >
                                     <Facebook />
                                 </a>
-                                <a href="#" target="_blank">
+                                <a
+                                    href="https://github.com/Bright4lpha"
+                                    target="_blank"
+                                >
                                     <Github />
                                 </a>
                             </div>

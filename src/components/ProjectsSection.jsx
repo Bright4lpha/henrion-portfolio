@@ -5,7 +5,7 @@ const projects = [
         title: "Panikabor",
         description:
             "J'ai créer un jeu de plateau en Java. Il s'agit d'un jeu collectif où l'objectif est de réparer le vaisseau spataial avant que l'équipage disparaisse à cause des aliens.",
-        image: "/projects/cmp5_jv.png",
+        image: "/projects/panikabor.png",
         tags: ["Java", "MG2D"],
         demoUrl: "",
         githubUrl: "https://github.com/Bright4lpha/Panikabor",
@@ -15,7 +15,7 @@ const projects = [
         title: "Laravel Project",
         description:
             "J'ai réalise une application web de gestion de stocks en Laravel. De plus, j'ai développé une API pour permettre l'accès aux données de l'application.",
-        image: "/projects/lara_3.png",
+        image: "/projects/laravel.png",
         tags: ["Laravel", "PHP", "API"],
         demoUrl: "",
         githubUrl: "",
@@ -25,7 +25,7 @@ const projects = [
         title: "Traitement d'images",
         description:
             "J'ai réalisé un projet de traitement d'images en Python. J'ai utilisé OpenCV pour appliquer différents filtres et transformations sur des images.",
-        image: "/projects/sae_c2.png",
+        image: "/projects/images_processing.png",
         tags: ["Python", "C++", "OpenCV"],
         demoUrl: "",
         githubUrl: "",
@@ -35,7 +35,7 @@ const projects = [
         title: "Montée de version GLPI",
         description:
             "Dans le cadre de mon alternance, j'ai effectué la montée de version de GLPI de la version 9 à la version 10. Ce projet m'a permis de découvrir les enjeux d'une migration de logiciel en entreprise. ",
-        image: "/projects/sae_c2.png",
+        image: "/projects/glpi.png",
         tags: ["PHP", "GLPI"],
         demoUrl: "",
         githubUrl: "",
@@ -46,7 +46,7 @@ const projects = [
         title: "Jeu d'arcade",
         description:
             "J'ai réalisé un démineur en Java pour la borne d'arcade de mon IUT. J'ai appris à optimiser le code pour qu'il fonctionne sur une machine avec des ressources limitées.",
-        image: "/projects/sae_c2.png",
+        image: "/projects/minesweeper.png",
         tags: ["Java", "MG2D", "Raspberry Pi"],
         demoUrl: "",
         githubUrl: "https://github.com/Bright4lpha/minesweeper_borne_iut",
@@ -56,7 +56,7 @@ const projects = [
         title: "Montée de version application",
         description:
             "J'ai réalisé la montée de version d'une application de traitement d'images HDR développée par mes enseignants. J'ai dû adapter le code pour qu'il fonctionne avec les nouvelles versions de Python et des bibliothèques utilisées.",
-        image: "/projects/sae_c2.png",
+        image: "/projects/uhdr.png",
         tags: ["Python"],
         demoUrl: "",
         githubUrl: "https://github.com/Bright4lpha/sae_uHDR",

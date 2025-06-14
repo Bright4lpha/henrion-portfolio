@@ -1,4 +1,4 @@
-import { Briefcase, Code, GraduationCap, Palette, User } from "lucide-react";
+import { Code, GraduationCap, Palette } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -33,7 +33,8 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href="/files/CV_Mathilde_Henrion.pdf"
+                                href="/CV_Henrion_Mathilde.pdf"
+                                download="CV_Henrion_Mathilde.pdf"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/70 transition-colors duration-300"
                             >
                                 {" "}

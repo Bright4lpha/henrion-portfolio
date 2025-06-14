@@ -103,7 +103,7 @@ export const ContactSection = () => {
                             </h4>
                             <div className="flex space-x-4 justify-center">
                                 <a
-                                    href="www.linkedin.com/in/mathilde-henrion-4b110b260"
+                                    href="https://linkedin.com/in/mathilde-henrion-4b110b260"
                                     target="_blank"
                                 >
                                     <Linkedin />

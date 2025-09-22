@@ -1,5 +1,23 @@
 [
     {
+        "title": "Projet webapp - The Book Cabinet",
+        "imageSrc": "projects/cmp5_jv.png",
+        "description": "Création d'une application de suivi de lecture.",
+        "skills": ["Node.js", "React", "TailwindCSS", "MongoDB"],
+        "source": "https://github.com/Bright4lpha/thebookcabinet-front",
+        "p1": "L'objectif est de créer une application permettant de suivre ces lectures. De les organiser sous forme d'étagères virtuelles et proposer des statistiques de quantité et de genres de lectures.",
+        "img1": "projects/panikabor2.png",
+        "t2": "Préparation",
+        "p2": "La première étape consiste à effectuer un descriptif détaillé du projet. Il s’agit de choisir l’ensemble des éléments du jeu. Quelles seront les caractéristiques des joueurs ? Forment-ils une équipe ou s’affrontent-ils ? Quelles sont les règles et les objectifs du jeu ? J’ai décidé de créer un jeu collaboratif où les joueurs s’associent pour combattre les ennemis. Le jeu prend place dans un vaisseau spacial attaqué par des aliens. Le plateau représente le vaisseau. Chaque joueur a des capacités spéciales (plus de vies, plusieurs lancés de dé, …) et les aliens aussi. Le but est de réparer le vaisseau et de s’enfuir.",
+        "t3": "Implémentation",
+        "p3": "Ensuite il faut choisir les technologies, l’architecture du projet et les structures de données. J’ai choisi le Java et une bibliothèque graphique développée par des étudiants de l’IUT de Calais (MG2D).",
+        "t4": "Design",
+        "p4": "Il faut également créer les designs des personnages et du plateau. En créant des croquis et en communiquant mes idées, mes amies m’ont aidées à créer les designs dont j’avais besoins.",
+        "img4": "projects/panikabor.png",
+        "t5": "Développement",
+        "p5": "Le développement s’effectue étape par étape. On effectue d’abord des déplacements, puis on ajoute plusieurs joueurs. On ajoute ensuite les capacités de chaque joueur. Il faut aussi ajouter l’affichage graphique, les menus, les mentions légales, …"
+    },
+    {
         "title": "Jeu vidéo - Panikabor",
         "imageSrc": "projects/cmp5_jv.png",
         "description": "Création d'un jeu vidéo de plateau en 2D avec possibilité de jouer contre l'ordinateur.",

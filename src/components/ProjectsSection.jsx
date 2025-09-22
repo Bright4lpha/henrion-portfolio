@@ -2,6 +2,16 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
     {
         id: 1,
+        title: "Projet webapp - The Book Cabinet",
+        description:
+            "L'objectif est de créer une application permettant de suivre ces lectures. De les organiser sous forme d'étagères virtuelles et proposer des statistiques de quantité et de genres de lectures.",
+        image: "/projects/thebookcabinet.png",
+        tags: ["Node.js", "React", "TailwindCSS", "MongoDB"],
+        demoUrl: "https://thebookcabinet-front.vercel.app/",
+        githubUrl: "https://github.com/Bright4lpha/thebookcabinet-front",
+    },
+    {
+        id: 2,
         title: "Panikabor",
         description:
             "J'ai créer un jeu de plateau en Java. Il s'agit d'un jeu collectif où l'objectif est de réparer le vaisseau spataial avant que l'équipage disparaisse à cause des aliens.",
@@ -11,7 +21,7 @@ const projects = [
         githubUrl: "https://github.com/Bright4lpha/Panikabor",
     },
     {
-        id: 2,
+        id: 3,
         title: "Laravel Project",
         description:
             "J'ai réalise une application web de gestion de stocks en Laravel. De plus, j'ai développé une API pour permettre l'accès aux données de l'application.",
@@ -21,7 +31,7 @@ const projects = [
         githubUrl: "",
     },
     {
-        id: 3,
+        id: 4,
         title: "Traitement d'images",
         description:
             "J'ai réalisé un projet de traitement d'images en Python. J'ai utilisé OpenCV pour appliquer différents filtres et transformations sur des images.",
@@ -31,7 +41,7 @@ const projects = [
         githubUrl: "",
     },
     {
-        id: 4,
+        id: 5,
         title: "Montée de version GLPI",
         description:
             "Dans le cadre de mon alternance, j'ai effectué la montée de version de GLPI de la version 9 à la version 10. Ce projet m'a permis de découvrir les enjeux d'une migration de logiciel en entreprise. ",
@@ -42,7 +52,7 @@ const projects = [
     },
 
     {
-        id: 5,
+        id: 6,
         title: "Jeu d'arcade",
         description:
             "J'ai réalisé un démineur en Java pour la borne d'arcade de mon IUT. J'ai appris à optimiser le code pour qu'il fonctionne sur une machine avec des ressources limitées.",
@@ -52,7 +62,7 @@ const projects = [
         githubUrl: "https://github.com/Bright4lpha/minesweeper_borne_iut",
     },
     {
-        id: 6,
+        id: 7,
         title: "Montée de version application",
         description:
             "J'ai réalisé la montée de version d'une application de traitement d'images HDR développée par mes enseignants. J'ai dû adapter le code pour qu'il fonctionne avec les nouvelles versions de Python et des bibliothèques utilisées.",
